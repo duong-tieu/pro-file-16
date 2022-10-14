@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let username = prompt("who's weather",'');
+if (username == 'Admin') {
+  let pass = prompt('Password?','');
+  if (pass == 'theMaster') {
+      alert('welcome!');
+  } else if (pass == null ) {
+      alert('Canceled.');
+  } else {
+      alert('Wrong password');
+  }
+} else if (username == null){
+    alert('Canceled');
+} else {
+    alert(" i don't know you");
+}
+</script>
+</body>
+</html>
